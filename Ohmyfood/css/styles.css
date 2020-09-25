@@ -484,12 +484,24 @@
   color: #bf7135;
 }
 
+.section_menu_2 .menu_entree.subline span::after {
+  background: #bf7135;
+}
+
 .section_menu_2 .menu_plats {
   color: #a56799;
 }
 
+.section_menu_2 .menu_plats.subline span::after {
+  background: #a56799;
+}
+
 .section_menu_2 .menu_dessert {
   color: #6f4dcd;
+}
+
+.section_menu_2 .menu_dessert.subline span::after {
+  background: #6f4dcd;
 }
 
 .section_menu_2 .subline span {

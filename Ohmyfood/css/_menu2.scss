@@ -1,4 +1,4 @@
-.section_menu_2{
+.section_menu_2 {
   background-color: $tertiary;
   flex-basis: auto;
   margin: 0 auto 80px auto;
@@ -8,14 +8,32 @@
   box-shadow: 0 0 7px 3px rgb(237, 237, 237);
   .menu_entree {
     color: #bf7135;
+
+    &.subline span {
+      &::after {
+        background: #bf7135;
+      }
+    }
   }
-  .menu_plats{
+  .menu_plats {
     color: #a56799;
+
+    &.subline span {
+      &::after {
+        background: #a56799;
+      }
+    }
   }
-  .menu_dessert{
+  .menu_dessert {
     color: #6f4dcd;
+
+    &.subline span {
+      &::after {
+        background: #6f4dcd;
+      }
+    }
   }
-  .subline span{
+  .subline span {
     position: relative;
     width: 50px;
     &:hover {
@@ -23,12 +41,12 @@
         width: 100%;
       }
     }
-    &::after{
+    &::after {
       content: "";
       position: absolute;
       width: 0;
       height: 2px;
-      background:#bf7135;
+      background: #bf7135;
       bottom: 0;
       left: 0;
       transition: width 0.25s ease;
@@ -51,6 +69,5 @@
     img {
       width: 200px;
     }
+  }
 }
-}
-
