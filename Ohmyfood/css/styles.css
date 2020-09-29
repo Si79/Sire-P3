@@ -464,8 +464,10 @@
   margin: 0;
 }
 
-.section_menu_1 .notemusic {
-  margin-top: 20px;
+.section_menu_1 .iconmusic {
+  margin-top: 30px;
+  width: 60px;
+  height: 60px;
 }
 
 .section_menu_2 {
